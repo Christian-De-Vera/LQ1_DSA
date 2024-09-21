@@ -22,7 +22,7 @@ var lenPersona2Address = persona2Address.length;
 
 
 //print out persona 1
-console.log("PERSONA 1")
+console.log("PERSONA 1");
 console.log("\tName:", persona1NameRearrange);
 console.log("\tAge:", persona1Age)
 console.log("\tAddress:", persona1Address, "\n")
@@ -35,7 +35,7 @@ console.log("\tAddress:", persona2Address, '\n');
 
 
 //Operations
-console.log('Operations')
+console.log('Operations');
 console.log(lenPersona1Name+lenPersona1Address+lenPersona2Address+lenPersona2Name); //Sum of all numeric values
 console.log(((persona1Age+persona2Age)-lenPersona1Name)*lenPersona2Name) //add, subtract, multiply
 console.log(lenPersona1Address**lenPersona2Address); //length Person 1 raise by the power of Person 2 address length
